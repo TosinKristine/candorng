@@ -1,0 +1,190 @@
+div.logo img,.logo.dsk,.logo.mob{
+width:250px;
+}
+.text-white{
+    color: #ffffff !important;
+}
+.mt--1{
+    margin-top: 1em;
+}
+.mt--2{
+    margin-top: 2em;
+}
+.mt--3{
+    margin-top: 3em;
+}
+.pt--3{
+    padding-top: 3em;
+}
+.core-values .card>.card-body{
+padding: 4em;
+}
+.core-values [class^="col"]:hover, .core-values [class^="col"]:hover .card>.card-body {
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+    cursor: pointer;
+}
+.core-values .card>.card-body:hover h2{
+    color: #ffffff !important;
+}
+.core-values [class^="col"] {
+    padding:  0;
+    background-color: #fff;
+}
+.core-values [class^="col"]:hover, .core-values [class^="col"]:hover .card>.card-body {
+    background-color: #3f51b5;
+    color: #ffffff !important;
+}
+.services-section{
+    margin-top: 3em;
+    padding: 3em;
+}
+.services-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    padding: 60px 0;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: .3s;
+    border:0;
+    text-align: center;
+}
+
+.services-card h3 {
+    color: #3f51b5;
+    font:700 18px/1 'Roboto Slab', sans-serif;
+    text-transform:none;
+}
+@media (min-width:768px) {
+    .services-card {
+        margin-bottom: 50px;
+        border-radius: 0;
+        background-color: transparent
+    }
+    .services-card:hover {
+        border-radius: 3px;
+        background-color: #fff;
+        box-shadow: 0 36px 64px 0 rgba(0, 0, 0, .1);
+        text-decoration: none
+    }
+    .services-card:hover .services-card__sublink {
+        opacity: 1
+    }
+}
+
+.services-card__link,
+.services-card__link:focus,
+.services-card__link:hover {
+    text-decoration: none
+}
+
+.services-card__link__icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 40px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.services-card__link__subtitle {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #000
+}
+
+.services-card__sublink {
+    text-decoration: none;
+    cursor: pointer;
+    color: #cdcdcd;
+    opacity: 0
+}
+
+.services-card__sublink:focus,
+.services-card__sublink:hover {
+    text-decoration: none;
+    color: #00d664
+}
+
+@media (max-width:767px) {
+    .services-card__sublink {
+        opacity: 1
+    }
+}
+.text-line::after{
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: rgba(255, 152, 0, 0.57);
+    margin-top: .5em;
+    margin-left: .1em;
+    box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.11);
+}
+.w-150{
+    width: 150px;
+}
+@media screen and  (max-width:481px)  { 
+    .xs-p-0{
+        padding: 0 !important
+    }
+    .xs-mrg-0{
+        margin: 0 !important
+    }
+    .core-values .card>.card-body{
+        padding: 2em;
+    }
+    #page-home section h2{
+        font:700 20px/1 'Roboto Slab', sans-serif
+    }
+    #home-history .contentContainer{
+        padding-top:100px;
+    }
+    .hide-xs{
+        display: none;
+    }
+ }
+ @media screen and (max-width: 650px) {
+     .sm-p-0{
+        padding: 0 !important
+    }
+    .sm-mrg-0{
+        margin: 0 !important
+    }
+    .sm-border-bottom{
+    border-bottom: 1px solid #dee2e6!important
+    }
+ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+.bg-soft-blue{
+ background-color: #3f51b570
+}
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background: center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+a:hover{
+text-decoration: none;
+}
+.people-section.mb-lg{
+   margin-bottom: 200px;
+}
