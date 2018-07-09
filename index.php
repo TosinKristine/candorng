@@ -40,13 +40,15 @@
 				<h1>Achieve Long term,
 					<br /> Success.
 				</h1>
+				<!--
 <a href="about.html" class="cta-btn">
 							<p>Our Trainings</p>
 							<span class="icon icon-arrow-right"></span>
-						</a><a href="about.html" class="cta-btn">
+						</a>
+						<a href="about.html" class="cta-btn">
 							<p>Job Openings</p>
 							<span class="icon icon-arrow-right"></span>
-						</a>
+						</a>-->
 				<div class="arrow-next">
 					<span class="icon icon-arrow-down"></span>
 				</div>
