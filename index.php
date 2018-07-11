@@ -22,15 +22,14 @@
 	<?php include_once ("includes/header.html")?>
 	<section id="hero">
 
-		<div class="hero-bg on" data-num="1" style="background-image: url(content/img/slider1.jpg);"></div>
-		<div class="hero-bg" data-num="2" style="background-image: url(content/uploads/2018/02/home-hero2.jpg);"></div>
-		<div class="hero-bg" data-num="3" style="background-image: url(content/uploads/2018/02/home-hero3.jpg);"></div>
-		<div class="hero-bg" data-num="4" style="background-image: url(content/uploads/2018/03/NPPR3-1.jpg);"></div>
+		<div class="hero-bg on" data-num="1" style="background-image: url(content/img/2.jpg);"></div>
+		<div class="hero-bg" data-num="2" style="background-image: url(content/img/slider1.jpg);"></div>
+		<div class="hero-bg" data-num="3" style="background-image: urlcontent/img/3.jpg);"></div>
 		<script type="text/javascript">
 			var img = new Image();
-			img.src = "content/uploads/2018/02/home-hero2.jpg";
-			img.src = "content/uploads/2018/02/home-hero3.jpg";
-			img.src = "content/uploads/2018/03/NPPR3-1.jpg";
+			img.src = "content/img/2.jpg";
+			img.src =  "content/img/slider1.jpg";
+			img.src =  "content/img/3.jpg";
 		</script>
 
 		<div class="contentContainer">
@@ -40,7 +39,14 @@
 				<h1>Achieve Long term,
 					<br /> Success.
 				</h1>
-
+				<div class="m-t">
+               <a href="trainings.php" class="btn btn-primary u-btn">
+				   Our Trainings
+</a>
+			   <button class="btn btn-primary u-btn">
+				   Job Openings
+			   </button>
+</div>
 				<div class="arrow-next">
 					<span class="icon icon-arrow-down"></span>
 				</div>

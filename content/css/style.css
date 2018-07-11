@@ -6337,19 +6337,17 @@ body.light#page-news.overview .news-search .close-btn {
   #globalMenu .menu-contents .row {
     display: block;
   }
-  #globalMenu .menu-contents .col.left {
+  #globalMenu .menu-contents .col.left,  #globalMenu .menu-contents .col.right {
     padding: 0 60px;
     max-width: none;
   }
-  #globalMenu .menu-contents .col.left .menu-nav > ul > li:not(.toplinks) {
+  #globalMenu .menu-contents .col.left .menu-nav > ul > li:not(.toplinks), 
+  #globalMenu .menu-contents .col.right .menu-nav > ul > li:not(.toplinks) {
     max-width: 230px;
   }
   #globalMenu .menu-contents .col.right {
     margin-top: 35px;
     max-width: none;
-  }
-  #globalMenu .menu-contents .col.right .menu-nav > ul > li:not(.toplinks) {
-    padding: 0 60px;
   }
   #globalMenu .lockup.mob {
     width: 160px;
