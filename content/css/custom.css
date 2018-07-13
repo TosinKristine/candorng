@@ -72,8 +72,9 @@ div.logo img,
 
 .services-card h3 {
     color: #3f51b5;
-    font: 700 18px/1 'Roboto Slab', sans-serif;
+    font: 700 20px/1 'Nunito', sans-serif;
     text-transform: none;
+    line-height: 1.5em 
 }
 
 @media (min-width:768px) {
@@ -159,7 +160,7 @@ div.logo img,
         padding: 2em;
     }
     #page-home section h2 {
-        font: 700 20px/1 'Roboto Slab', sans-serif
+        font: 700 20px/1 'Josefin Sans', sans-serif
     }
     #home-history .contentContainer {
         padding-top: 100px;
@@ -243,4 +244,7 @@ a:hover {
 }
 .u-btn:hover{
     background-color: #fa8c28;
+}
+.mb-2{
+    margin-bottom: 2rem;
 }

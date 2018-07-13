@@ -39,7 +39,6 @@
 				<h1>Achieve Long term,
 					<br /> Success.
 				</h1>
-
 				<div class="m-t">
                <a href="trainings.php" class="btn btn-primary u-btn">
 				   Our Trainings
@@ -48,7 +47,6 @@
 				   Job Openings
 			   </button>
 </div>
-
 				<div class="arrow-next">
 					<span class="icon icon-arrow-down"></span>
 				</div>

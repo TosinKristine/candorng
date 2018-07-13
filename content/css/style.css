@@ -10,7 +10,7 @@ Author URI: http://www.jlern.com
 /* FUNCTIONS */
 /*! VARIABLES */
 /*! - GLOBAL: REUSE */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300');
+@import url("../fonts/proximanova/fonts.css");
 html,
 body {
   height: 100%;
@@ -63,7 +63,7 @@ section {
 }
 section p,
 .global p {
-  font: 400 18px/1.68 'Nunito', sans-serif;
+  font: 400 18px/1.68 'Proxima Nova', sans-serif;
 }
 section p + p,
 .global p + p,
@@ -75,30 +75,30 @@ section ul + p,
 }
 section h1,
 .global h1 {
-  font: 700 50px/1 'Roboto Slab', sans-serif;
+  font: 700 50px/1 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   letter-spacing: .01em;
 }
 section h2,
 .global h2 {
-  font: 700 25px/1 'Nunito', sans-serif;
+  font: 700 25px/1 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   margin-bottom: 25px;
 }
 section h3,
 .global h3 {
-  font: 700 16px/1 'Nunito', sans-serif;
+  font: 700 16px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   line-height: 2em;
 }
 section h4,
 .global h4 {
-  font: 700 18px/1.65 'Nunito', sans-serif;
+  font: 700 18px/1.65 'Proxima Nova', sans-serif;
 }
 section h5,
 .global h5 {
-  font: 700 18px/1.68 'Nunito', sans-serif;
+  font: 700 18px/1.68 'Proxima Nova', sans-serif;
   margin-bottom: 10px;
 }
 section a,
@@ -106,12 +106,12 @@ section a,
   color: #1f2a2a;
 }
 #page-home section h2 {
-  font: 700 27px/1 'Roboto Slab', sans-serif;
+  font: 700 27px/1 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   letter-spacing: .01em;
 }
 .smallcaps {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
@@ -339,7 +339,7 @@ a:focus {
   vertical-align: middle;
 }
 .cta-btn p {
-  font: 700 15px/1 'Nunito', sans-serif;
+  font: 700 15px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: #1f2a2a;
@@ -638,7 +638,7 @@ a:focus {
   -ms-flex-pack: center;
 }
 .project-hover .hover-icon p.txt {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: #fff;
@@ -649,13 +649,13 @@ a:focus {
   text-align: center;
 }
 .project-hover .hover-icon .txt h2 {
-  font: 700 47px/1 'Roboto Slab', sans-serif;
+  font: 700 47px/1 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   letter-spacing: .01em;
   color: #fff;
 }
 .project-hover .hover-icon .txt p {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: #fff;
@@ -860,7 +860,7 @@ body.light#page-news.overview .news-search .close-btn {
   left: 50%;
   top: 95px;
   margin-left: -20px;
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   color: #fff;
   letter-spacing: .1em;
   -webkit-transform: rotate(90deg);
@@ -986,7 +986,7 @@ body.light#page-news.overview .news-search .close-btn {
   height: auto;
 }
 #globalMenu .menu-nav ul > li a.top-level {
-  font: 700 28px/1 'Roboto Slab', sans-serif;
+  font: 700 28px/1 'Proxima Nova', sans-serif;
   color: #3f51b5;
   margin-bottom: 16px;
   display: block;
@@ -995,7 +995,7 @@ body.light#page-news.overview .news-search .close-btn {
   margin-top: 11px;
 }
 #globalMenu .menu-nav ul > li .subnav a {
-  font: 400 16px/1.68 'Nunito', sans-serif;
+  font: 400 16px/1.68 'Proxima Nova', sans-serif;
   color: #fff;
 }
 #globalMenu .menu-nav ul > li ~ li {
@@ -1058,12 +1058,12 @@ body.light#page-news.overview .news-search .close-btn {
   color: #fff;
 }
 #hero p {
-  font: 700 16px/1 'Nunito', sans-serif;
+  font: 700 16px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
 #hero h1 {
-  font: 700 78px/1.35 'Roboto Slab', sans-serif;
+  font: 700 78px/1.35 'Proxima Nova', sans-serif;
   letter-spacing: .02em;
   margin-top: 40px;
 }
@@ -1135,6 +1135,7 @@ body.light#page-news.overview .news-search .close-btn {
   padding-right: 0px;
   padding-bottom: 150px;
   z-index: 2;
+  margin-top: 3em;
 }
 #base-projects > .contentContainer {
   max-width: 1340px;
@@ -1148,7 +1149,7 @@ body.light#page-news.overview .news-search .close-btn {
   left: 0;
   top: 0;
   top: 132px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   left: -70px;
 }
 #base-projects .icon-brackets {
@@ -1934,7 +1935,7 @@ body.light#page-news.overview .news-search .close-btn {
   vertical-align: top;
 }
 #home-news .news-nav p {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   font-size: 13px;
@@ -1994,16 +1995,16 @@ body.light#page-news.overview .news-search .close-btn {
 }
 #globalFooter p,
 #globalFooter li {
-  font: 400 14px/1.75 'Nunito', sans-serif;
+  font: 400 14px/1.75 'Proxima Nova', sans-serif;
 }
 #globalFooter h2 {
-  font: 700 27px/1.7 'Roboto Slab', sans-serif;
+  font: 700 27px/1.7 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   letter-spacing: .01em;
   margin-bottom: 0px;
 }
 #globalFooter h4 {
-  font: 700 14px/1.7 'Nunito', sans-serif;
+  font: 700 14px/1.7 'Proxima Nova', sans-serif;
   margin-bottom: 7px;
 }
 #globalFooter p,
@@ -2075,7 +2076,7 @@ body.light#page-news.overview .news-search .close-btn {
   background-color: #fff;
 }
 .read-more {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   text-decoration: underline;
@@ -2098,7 +2099,7 @@ body.light#page-news.overview .news-search .close-btn {
   pointer-events: none;
 }
 .backto-btn a {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: #1f2a2a;
@@ -2147,7 +2148,7 @@ body.light#page-news.overview .news-search .close-btn {
   vertical-align: top;
 }
 .menu-sticky-btn h4 {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -2221,7 +2222,7 @@ body.light#page-news.overview .news-search .close-btn {
   margin-bottom: 15px;
 }
 #dark-hero p {
-  font: 400 25px/1.44 'Nunito', sans-serif;
+  font: 400 25px/1.44 'Proxima Nova', sans-serif;
   max-width: 500px;
 }
 #dark-hero .icon {
@@ -2374,7 +2375,7 @@ body.light#page-news.overview .news-search .close-btn {
   font-size: 18px;
 }
 .body-grid1 .content-block li {
-  font: 400 18px/1.68 'Nunito', sans-serif;
+  font: 400 18px/1.68 'Proxima Nova', sans-serif;
   text-indent: -0.6em;
 }
 .body-grid1 .content-block li:before {
@@ -2434,7 +2435,7 @@ body.light#page-news.overview .news-search .close-btn {
   transform: scaleX(1);
 }
 .subpage-nav a {
-  font: 500 14px/1 'Nunito', sans-serif;
+  font: 500 14px/1 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   opacity: .5;
   -webkit-transition: opacity 0.3s linear;
@@ -2493,7 +2494,7 @@ body.light#page-news.overview .news-search .close-btn {
   padding-right: 70px;
 }
 #page-projects .tier-title h1 {
-  font: 700 50px/1 'Roboto Slab', sans-serif;
+  font: 700 50px/1 'Proxima Nova', sans-serif;
   color: #1f2a2a;
 }
 #page-projects .tier-title h1,
@@ -2607,7 +2608,7 @@ body.light#page-news.overview .news-search .close-btn {
   border-top: 1px solid #3a4848;
 }
 #page-projects.sector .sector-drop li a {
-  font: 400 18px/1 'Nunito', sans-serif;
+  font: 400 18px/1 'Proxima Nova', sans-serif;
   color: #fff;
   display: block;
   padding: 20px 0;
@@ -2703,7 +2704,7 @@ body.light#page-news.overview .news-search .close-btn {
   margin-left: -7px;
 }
 #page-projects .menu-sticky-drop h4 {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   margin: 12px 0 20px;
   color: #1f2a2a;
   letter-spacing: .1em;
@@ -2806,7 +2807,7 @@ body.light#page-news.overview .news-search .close-btn {
   position: relative;
 }
 .sidebar-detail-section .detail-title h4 {
-  font: 700 12px/40px 'Nunito', sans-serif;
+  font: 700 12px/40px 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -3057,7 +3058,7 @@ body.light#page-news.overview .news-search .close-btn {
   border-bottom: 1px solid #3a4848;
 }
 #page-services .menu-sticky-drop li a {
-  font: 400 14px/1.6 'Nunito', sans-serif;
+  font: 400 14px/1.6 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   display: block;
   width: 100%;
@@ -3091,31 +3092,7 @@ body.light#page-news.overview .news-search .close-btn {
   padding-bottom: 100px;
   background-color: #fff;
 }
-#service-body .case-study {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: justify;
-  justify-content: flex-end;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-}
-#service-body .case-study .case-study-wrap {
-  width: 100%;
-  max-width: 807px;
-  position: relative;
-}
+
 #service-body .case-study .cs-image {
   width: 100%;
   height: 490px;
@@ -3137,7 +3114,7 @@ body.light#page-news.overview .news-search .close-btn {
   z-index: 1;
 }
 #service-body .case-study .cs-text h5 {
-  font: 400 14px/1.7 'Nunito', sans-serif;
+  font: 400 18px 'Proxima Nova', sans-serif;
   color: #fff;
   margin-bottom: 40px;
 }
@@ -3177,7 +3154,7 @@ body.light#page-news.overview .news-search .close-btn {
   height: 66px;
   padding-bottom: 3px;
   border-bottom: 1px solid #3a4848;
-  font: 400 14px/1.6 'Nunito', sans-serif;
+  font: 400 14px/1.6 'Proxima Nova', sans-serif;
   letter-spacing: .02em;
   color: #1f2a2a;
   display: -webkit-flex;
@@ -3214,7 +3191,7 @@ body.light#page-news.overview .news-search .close-btn {
 #service-includes .includes-list.mob .view-more {
   margin-top: 22px;
   display: inline-block;
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
@@ -3241,7 +3218,7 @@ body.light#page-news.overview .news-search .close-btn {
   border-bottom: 1px solid #3a4848;
 }
 #page-people .menu-sticky-drop li a {
-  font: 400 14px/1.6 'Nunito', sans-serif;
+  font: 400 14px/1.6 'Proxima Nova', sans-serif;
   color: #1f2a2a;
   display: block;
   width: 100%;
@@ -3349,7 +3326,7 @@ body.light#page-news.overview .news-search .close-btn {
   cursor: pointer;
 }
 #people-values .value-block h3 {
-  font: 700 30px/1 'Roboto Slab', sans-serif;
+  font: 700 30px/1 'Proxima Nova', sans-serif;
   color: #fff;
   text-transform: none;
   letter-spacing: .01em;
@@ -3562,7 +3539,7 @@ body.light#page-news.overview .news-search .close-btn {
 #people-awards .awards-wrap .view-more {
   margin-top: 30px;
   display: inline-block;
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
@@ -3583,7 +3560,7 @@ body.light#page-news.overview .news-search .close-btn {
   letter-spacing: .02em;
 }
 #people-awards .award-block p {
-  font: 400 italic 14px/1.85 'Nunito', sans-serif;
+  font: 400 italic 14px/1.85 'Proxima Nova', sans-serif;
 }
 #people-awards .award-block.hidden {
   display: none;
@@ -3608,7 +3585,7 @@ body.light#page-news.overview .news-search .close-btn {
   margin-bottom: 20px;
 }
 #overlay-team h4 {
-  font: 400 25px/1 'Nunito', sans-serif;
+  font: 400 25px/1 'Proxima Nova', sans-serif;
   margin-bottom: 60px;
 }
 #overlay-team .overlayWrap {
@@ -3804,7 +3781,7 @@ body.light#page-news.overview .news-search .close-btn {
   -ms-flex-pack: center;
 }
 #contact-form .thanks h3 {
-  font: 700 50px/1 'Roboto Slab', sans-serif;
+  font: 700 50px/1 'Proxima Nova', sans-serif;
   text-transform: none;
   color: #fff;
   letter-spacing: .01em;
@@ -3848,7 +3825,7 @@ body.light#page-news.overview .news-search .close-btn {
 }
 #contactForm input[type="text"],
 #contactForm input[type="email"] {
-  font: 400 18px/1 'Nunito', sans-serif;
+  font: 400 18px/1 'Proxima Nova', sans-serif;
   height: 52px;
   color: #fff;
   border: none;
@@ -3858,13 +3835,13 @@ body.light#page-news.overview .news-search .close-btn {
   padding-left: 0px;
 }
 #contactForm label {
-  font: 400 18px/1 'Nunito', sans-serif;
+  font: 400 18px/1 'Proxima Nova', sans-serif;
   color: #fff;
   display: block;
   margin: 20px 0;
 }
 #contactForm textarea {
-  font: 400 16px/1.35 'Nunito', sans-serif;
+  font: 400 16px/1.35 'Proxima Nova', sans-serif;
   color: #fff;
   width: 100%;
   height: 115px;
@@ -3945,14 +3922,14 @@ body.light#page-news.overview .news-search .close-btn {
 }
 #contact-details p,
 #contact-details li {
-  font: 400 18px/1.7 'Nunito', sans-serif;
+  font: 400 18px/1.7 'Proxima Nova', sans-serif;
   letter-spacing: .02em;
 }
 #contact-details li + li {
   margin-top: 10px;
 }
 #contact-details h4 {
-  font: 700 18px/1.7 'Nunito', sans-serif;
+  font: 700 18px/1.7 'Proxima Nova', sans-serif;
   margin-bottom: 7px;
   letter-spacing: .02em;
 }
@@ -4364,7 +4341,7 @@ body.light#page-news.overview .news-search .close-btn {
 .news-search .search-wrap input[type="text"] {
   width: 100%;
   height: 60px;
-  font: 400 18px 'Nunito', sans-serif;
+  font: 400 18px 'Proxima Nova', sans-serif;
   color: #fff;
   border: none;
   background: none;
@@ -4407,7 +4384,7 @@ body.light#page-news.overview .news-search .close-btn {
   border-top: 1px solid #3a4848;
 }
 .news-search .search-auto li a {
-  font: 400 14px/1.35 'Nunito', sans-serif;
+  font: 400 14px/1.35 'Proxima Nova', sans-serif;
   color: #fff;
   display: block;
   padding: 18px 0;
@@ -4423,7 +4400,7 @@ body.light#page-news.overview .news-search .close-btn {
   margin-right: 17px;
 }
 .news-search .back-btn a {
-  font: 700 12px/1 'Nunito', sans-serif;
+  font: 700 12px/1 'Proxima Nova', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: #fff;
