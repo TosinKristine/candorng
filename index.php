@@ -24,12 +24,14 @@
 
 		<div class="hero-bg on" data-num="1" style="background-image: url(content/img/2.jpg);"></div>
 		<div class="hero-bg" data-num="2" style="background-image: url(content/img/slider1.jpg);"></div>
-		<div class="hero-bg" data-num="3" style="background-image: urlcontent/img/3.jpg);"></div>
+		<div class="hero-bg" data-num="3" style="background-image: url(content/img/3.jpg);"></div>
+		<div class="hero-bg" data-num="4" style="background-image: ur(content/img/4.jpg);"></div>
 		<script type="text/javascript">
 			var img = new Image();
-			img.src = "content/img/2.jpg";
+			img.src =  "content/img/2.jpg";
 			img.src =  "content/img/slider1.jpg";
 			img.src =  "content/img/3.jpg";
+			img.src =  "content/img/4.jpg";
 		</script>
 
 		<div class="contentContainer">
