@@ -64,6 +64,19 @@ div.logo img,
     padding: 2em;
 }
 
+.services-section[class^="col"]:hover {
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+    cursor: pointer;
+}
+.services-section [class^="col"]:hover{
+    background-color: #3f51b5;
+    color: #ffffff !important;
+}
+
 .services-card {
     display: flex;
     flex-direction: column;
