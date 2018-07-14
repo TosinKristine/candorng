@@ -1512,12 +1512,10 @@ body.light#page-news.overview .news-search .close-btn {
 #base-services .service-images .service-image.on {
   display: block;
 }
-#base-services .cta-btn {
-  background-color: #1f2a2a;
-}
+
 #base-services .cta-btn p,
 #base-services .cta-btn .icon {
-  color: #fff;
+  color: #1f2a2a;
 }
 #base-services .services-text {
   width: 100%;

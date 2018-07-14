@@ -52,10 +52,16 @@ div.logo img,
     background-color: #3f51b5;
     color: #ffffff !important;
 }
-
 .services-section {
     margin-top: 3em;
     padding: 3em;
+}
+.services-section .row {
+    padding-bottom: 2em;
+}
+
+.services-section > content-block case-study,{
+    padding: 2em;
 }
 
 .services-card {
@@ -246,5 +252,5 @@ a:hover {
     background-color: #fa8c28;
 }
 .mb-2{
-    margin-bottom: 2rem;
+    margin-bottom: 2rem !important;
 }
