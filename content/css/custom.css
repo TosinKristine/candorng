@@ -60,7 +60,7 @@ div.logo img,
     padding-bottom: 2em;
 }
 
-.services-section  .content-block .case-study,{
+.services-section  .content-block.case-study,{
     padding: 2em;
 }
 
