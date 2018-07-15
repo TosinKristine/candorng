@@ -52,15 +52,17 @@ div.logo img,
     background-color: #3f51b5;
     color: #ffffff !important;
 }
+
 .services-section {
     margin-top: 3em;
     padding: 3em;
 }
+
 .services-section .row {
     padding-bottom: 2em;
 }
 
-.content-block.case-study{
+.content-block.case-study {
     padding: 2em;
 }
 
@@ -72,7 +74,8 @@ div.logo img,
     transition: background-color 500ms linear;
     cursor: pointer;
 }
-.services-section [class^="col"]:hover{
+
+.services-section [class^="col"]:hover {
     background-color: #3f51b5;
     color: #ffffff !important;
 }
@@ -93,7 +96,7 @@ div.logo img,
     color: #3f51b5;
     font: 700 20px/1 'Nunito', sans-serif;
     text-transform: none;
-    line-height: 1.5em 
+    line-height: 1.5em
 }
 
 @media (min-width:768px) {
@@ -199,6 +202,14 @@ div.logo img,
     .sm-border-bottom {
         border-bottom: 1px solid #dee2e6 !important
     }
+    .services-section {
+        margin-top: 2em;
+        padding: 1em;
+    }
+
+.content-block.case-study {
+    padding: 0;
+}
 }
 
 @media (min-width:961px) {
@@ -261,9 +272,11 @@ a:hover {
     background-color: #4443BB;
     font-family: 'Nunito'
 }
-.u-btn:hover{
+
+.u-btn:hover {
     background-color: #fa8c28;
 }
-.mb-2{
+
+.mb-2 {
     margin-bottom: 2rem !important;
 }
