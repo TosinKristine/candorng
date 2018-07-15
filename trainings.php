@@ -284,8 +284,7 @@
     <div class="modal" tabindex="-1" role="dialog" id="mdMore">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
+                <div class="modal-header border-0">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -293,9 +292,8 @@
                 <div class="modal-body">
                     <p>Modal body text goes here.</p>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <div class="modal-footer border-0">
+                    <a href="javascript:void(0)" class="cta-btn no-box" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

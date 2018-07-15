@@ -45,9 +45,9 @@
                <a href="trainings.php" class="btn btn-primary u-btn">
 				   Our Trainings
 </a>
-			   <button class="btn btn-primary u-btn">
+			   <a href="https://candorjobs.netlify.com/#/app/"  class="btn btn-primary u-btn">
 				   Job Openings
-			   </button>
+			   </a>
 </div>
 				<div class="arrow-next">
 					<span class="icon icon-arrow-down"></span>
